@@ -62,12 +62,17 @@ developing your own process.
 
 - Add a new toy when the toy form is submitted
 
-  - How I debugged:
+I begun by debuging the API on the controler by inserting (byebug)
+using the debaging tool, I obtained data using .all metho on the
+
+### toy = Toy.Create(...)
+
+Identified the fault is that our toy schema had an s at the end
 
 - Update the number of likes for a toy
 
-  - How I debugged:
+  - Added the render method that was missing
 
 - Donate a toy to Goodwill (and delete it from our database)
 
-  - How I debugged:
+  - By adding the destroy route on the route.rb file
